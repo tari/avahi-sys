@@ -1,0 +1,45 @@
+# client.h
+AvahiClient
+AvahiClientCallback
+AvahiClientFlags
+AvahiClientState
+AvahiPoll
+AvahiTimeout
+AvahiTimeoutCallback
+AvahiWatch
+AvahiWatchCallback
+AvahiWatchEvent
+
+# lookup.h
+AvahiAddress
+AvahiBrowserEvent
+AvahiDomainBrowser
+AvahiDomainBrowserCallback
+AvahiDomainBrowserEvent
+AvahiDomainBrowserType
+AvahiIfIndex
+AvahiLookupFlags
+AvahiLookupResultFlags
+AvahiProtocol
+AvahiRecordBrowser
+AvahiRecordBrowserCallback
+AvahiResolverEvent
+AvahiServiceBrowser
+AvahiServiceBrowserCallback
+AvahiServiceResolver
+AvahiServiceResolverCallback
+
+# publish.h
+AvahiEntryGroup
+AvahiEntryGroupCallback
+AvahiEntryGroupState
+AvahiPublishFlags
+
+# simple-watch.h
+AvahiSimplePoll
+
+# other
+AvahiIPv4Address
+AvahiIPv6Address
+AvahiPollFunc
+AvahiStringList

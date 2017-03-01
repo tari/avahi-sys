@@ -3,6 +3,8 @@
 Rust bindings to [Avahi][avahi]'s libavahi-client for zero-configuration
 networking with mDNS/DNS-SD.
 
+For API documentation refer to http://www.avahi.org/doxygen/html/index.html
+
 ## Prerequisites
 
 These bindings use [`bindgen`][bindgen] to parse the library's C headers, which

@@ -58,3 +58,11 @@ avahi_simple_poll_quit
 avahi_simple_poll_run
 avahi_simple_poll_set_func
 avahi_simple_poll_wakeup
+
+# address.h
+avahi_address_cmp
+avahi_address_parse
+avahi_address_snprint
+avahi_af_to_proto
+avahi_proto_to_af
+avahi_proto_to_string

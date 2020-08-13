@@ -39,7 +39,9 @@ AvahiPublishFlags
 AvahiSimplePoll
 
 # other
-AvahiIPv4Address
-AvahiIPv6Address
 AvahiPollFunc
 AvahiStringList
+
+# address.h
+AvahiIPv4Address
+AvahiIPv6Address

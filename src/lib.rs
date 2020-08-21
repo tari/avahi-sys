@@ -7,6 +7,7 @@ extern crate libc;
 
 use libc::{pollfd, timeval};
 
+#[cfg(target_os = "unix")]
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
 #[cfg(test)]

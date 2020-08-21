@@ -28,6 +28,10 @@ where
 }
 
 fn main() {
+    if std::env::var("TARGET").unwrap().contains("-unix") {
+        return;
+    }
+    
     println!("cargo:rustc-link-lib=avahi-client");
     println!("cargo:rustc-link-lib=avahi-common");
 

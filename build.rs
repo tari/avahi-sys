@@ -30,7 +30,7 @@ where
 fn main() {
     println!("{}", std::env::var("TARGET").unwrap());
 
-    if !std::env::var("TARGET").unwrap().contains("-unix") {
+    if !std::env::var("TARGET").unwrap().contains("-linux") {
         return;
     }
 

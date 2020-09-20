@@ -12,7 +12,7 @@ categories = ["api-bindings", "external-ffi-bindings", "network-programming"]
 license = "LGPL"
 
 [build-dependencies]
-bindgen = "0.54.1"
+bindgen = "0.55.1"
 
 [dependencies]
 libc = "*"

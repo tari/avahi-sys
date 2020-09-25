@@ -17,11 +17,3 @@ installing it with your system's package manager.
 
 [avahi]: http://www.avahi.org/
 [bindgen]: https://github.com/servo/rust-bindgen
-
-## Internals
-
-Because the Avahi API exposes some types that are not primitives but are part of
-the C library, functions and types in the bindings are whitelisted where they
-should be exposed. Others like `pollfd` or `timeval` are explicitly referenced
-from `libc` so a common type can be used in API consumers rather than
-translating to an internal instance of the C library types.

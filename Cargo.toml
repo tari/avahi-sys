@@ -16,4 +16,4 @@ build = "build.rs"
 bindgen = "0.55.1"
 
 [dependencies]
-libc = "*"
+libc = "0.2.77"

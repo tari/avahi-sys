@@ -1,15 +1,16 @@
 [package]
 name = "avahi-sys"
-version = "0.9.0"
-authors = ["Peter Marheine <peter@taricorp.net>"]
-build = "build.rs"
-
+version = "0.10.0"
+authors = ["Peter Marheine <peter@taricorp.net>", "Walker Crouse <walkercrouse@hotmail.com>"]
+edition = "2018"
 description = "Bindings to Avahi, a library for zero-configuration networking."
-repository = "https://bitbucket.org/tari/avahi-sys"
 readme = "README.md"
-keywords = ["avahi"]
-categories = ["api-bindings", "external-ffi-bindings", "network-programming"]
-license = "LGPL"
+homepage = "https://github.com/windy1/avahi-sys"
+repository = "https://github.com/windy1/avahi-sys"
+license-file = "LICENSE"
+keywords = ["avahi", "zeroconf", "mdns", "bonjour", "dnssd"]
+categories = ["api-bindings", "external-ffi-bindings", "network-programming", "os", "os::linux-apis"]
+build = "build.rs"
 
 [build-dependencies]
 bindgen = "0.55.1"

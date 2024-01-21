@@ -1,7 +1,10 @@
 [package]
 name = "avahi-sys"
-version = "0.10.0"
-authors = ["Peter Marheine <peter@taricorp.net>", "Walker Crouse <walkercrouse@hotmail.com>"]
+version = "0.10.1"
+authors = [
+    "Peter Marheine <peter@taricorp.net>",
+    "Walker Crouse <walkercrouse@hotmail.com>",
+]
 edition = "2018"
 description = "Bindings to Avahi, a library for zero-configuration networking."
 readme = "README.md"
@@ -9,11 +12,17 @@ homepage = "https://github.com/windy1/avahi-sys"
 repository = "https://github.com/windy1/avahi-sys"
 license-file = "LICENSE"
 keywords = ["avahi", "zeroconf", "mdns", "bonjour", "dnssd"]
-categories = ["api-bindings", "external-ffi-bindings", "network-programming", "os", "os::linux-apis"]
+categories = [
+    "api-bindings",
+    "external-ffi-bindings",
+    "network-programming",
+    "os",
+    "os::linux-apis",
+]
 build = "build.rs"
 
 [build-dependencies]
-bindgen = "0.55.1"
+bindgen = "0.69.2"
 
 [dependencies]
 libc = "0.2.77"
